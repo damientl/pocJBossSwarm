@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e99fad86-2acf-4dce-bfea-8f87272b1ba8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pocs/swarm/api/BookApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pocs/swarm/api/BookApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +25,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="java" value="3" />
+          <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -33,7 +33,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="3" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -41,15 +41,16 @@
         <counts>
           <entry key="bat" value="11" />
           <entry key="gitignore" value="9" />
-          <entry key="java" value="132" />
+          <entry key="java" value="136" />
+          <entry key="md" value="52" />
           <entry key="txt" value="42" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="132" />
-          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="JAVA" value="136" />
+          <entry key="PLAIN_TEXT" value="114" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -66,14 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pocs/swarm/api/BookApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="320">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -121,6 +131,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/run.bat" />
         <option value="$PROJECT_DIR$/src/main/java/pocs/swarm/api/BookApi.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -211,28 +222,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SwarmPoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="SwarmPoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.7" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SwarmPoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="slf4j-api-1.7.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwarmPoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="slf4j-api-1.7.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="slf4j" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +232,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540741291422" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540759806078" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/pocSwarm-swarm.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -422,7 +411,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43606558" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20655738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +434,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pocs/swarm/api/BookApi.java</url>
-          <line>35</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -501,11 +490,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pocs/swarm/api/BookApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="320">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
